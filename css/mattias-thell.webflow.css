@@ -1,0 +1,389 @@
+body {
+  background-color: #222;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  display: block;
+  margin-bottom: 16px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: #099ed8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #92c2d5;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.hero {
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.hero.small {
+  min-height: 410px;
+}
+
+.hero.project-page {
+  min-height: 384px;
+}
+
+.nav {
+  padding-top: 28px;
+  background-color: transparent;
+}
+
+.nav-link {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  direction: ltr;
+  font-family: Exo, sans-serif;
+  color: #999;
+  font-size: 15px;
+  line-height: 17px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link.w--current {
+  color: #099ed8;
+}
+
+.logo {
+  padding: 15px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  margin-top: 29px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: #0e1f26;
+  color: #999;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.main-heading {
+  display: block;
+  width: 500px;
+  margin-right: auto;
+  margin-bottom: 27px;
+  margin-left: auto;
+  color: #fff;
+  font-size: 48px;
+  line-height: 53px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.main-heading.inline {
+  display: inline;
+}
+
+.heading-wrapper {
+  margin-top: 50px;
+  padding-right: 15%;
+  padding-left: 15%;
+  text-align: center;
+}
+
+.profile-pic {
+  display: block;
+  width: 90px;
+  margin-right: auto;
+  margin-bottom: 31px;
+  margin-left: auto;
+  border-radius: 100%;
+}
+
+.about-me {
+  display: block;
+  width: 61%;
+  margin: 41px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.empty-state {
+  padding: 33px 33px 49px;
+  border: 1px solid hsla(0, 0%, 100%, .34);
+  border-radius: 3px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.no-items-title {
+  font-weight: 300;
+}
+
+.project-image {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.project-image:hover {
+  opacity: 0.69;
+}
+
+.project-body-copy {
+  display: block;
+  width: 500px;
+  margin-right: auto;
+  margin-bottom: 67px;
+  margin-left: auto;
+}
+
+.main-detail-image {
+  max-width: 400px;
+  margin-bottom: 41px;
+  border-radius: 3px;
+}
+
+.category-link {
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.category-link:hover {
+  opacity: 0.67;
+  text-decoration: none;
+}
+
+.namelogo {
+  font-family: Exo, sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.body {
+  overflow: visible;
+  background-color: #16313d;
+  background-image: url('../images/bg-gradiant.png');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.game-container {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+}
+
+.date-heading {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #c5c5c5;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.nfs-games {
+  display: block;
+  width: 425px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 991px) {
+  .hero {
+    min-height: 520px;
+  }
+  .hero.project-page {
+    min-height: 344px;
+  }
+  .nav {
+    margin-top: 0px;
+  }
+  .menu-button {
+    color: #fff;
+  }
+  .menu-button:hover {
+    color: #00d6b4;
+  }
+  .menu-button.w--open {
+    background-color: #000;
+  }
+  .heading-wrapper {
+    margin-top: 115px;
+  }
+  .nav-menu {
+    background-color: #000;
+  }
+  .project-body-copy {
+    margin-right: 12%;
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    min-height: 420px;
+  }
+  .hero.small {
+    min-height: 280px;
+  }
+  .hero.project-page {
+    min-height: 256px;
+  }
+  .nav {
+    padding-top: 0px;
+  }
+  .main-heading {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .heading-wrapper {
+    margin-top: 72px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .about-me {
+    width: 81%;
+    margin-top: 0px;
+  }
+  .project-body-copy {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 479px) {
+  .hero {
+    min-height: 340px;
+  }
+  .hero.project-page {
+    min-height: 226px;
+  }
+  .heading-wrapper {
+    margin-top: 50px;
+  }
+  .about-me {
+    width: 91%;
+  }
+  .project-body-copy {
+    margin-right: 18px;
+    margin-left: 18px;
+  }
+}
