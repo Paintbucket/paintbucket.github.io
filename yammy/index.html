@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Is It Yammy Monday?</title>
+		<meta name="description" content="It is time to find out and head for YammyYammy!" />
+		<meta name="keywords" content="Yammy, Yammy Yammy, YammyYammy, Monday, Lunch, Göteborg" />
+		<meta name="author" content="Fans of Yammy" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="yammystyle.css" />
+		
+		<script type="text/javascript">
+        function isItYammyMonday() {
+        	
+        	var now = new Date();
+        	var dayIndex = now.getDay(); // 0 == Sunday
+        	if (dayIndex == 1) 
+        	{
+        		var yes = document.getElementById("yes");
+        		yes.style.display = "inherit";
+        	}
+        	else
+        	{
+        		var no = document.getElementById("no");
+        		no.style.display = "inherit";
+        	}
+        	
+        }
+        window.onload = isItYammyMonday;
+    	</script>
+	</head>
+
+	<body>
+		<div class="center">
+			<div class="header">
+				Is it <a href="http://www.yammyyammy.com/">Yammy</a> monday?
+			</div>
+			
+				<div id="yes" style="display:none">
+					<div class="big">
+						YES!
+					</div>
+					Let's tell everyone!
+				</div>
+				
+				<div id="no" style="display:none">
+					<div class="big">
+						Nope
+					</div>
+					
+					<p></p>
+					<p class="small">
+					...but we could go there anyway.
+					</p>
+				</div>
+			</div>
+			
+		</div>
+
+	</body>
+</html>
